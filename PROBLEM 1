@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 25 19:09:10 2019
+
+@author: Martin Palmiano
+"""
+import pandas as pd
+
+data = pd.read_csv("cars.csv")
+
+#[:5] denotes the first five and [27:] was the last five rows
+print(data[:5], data[27:])
